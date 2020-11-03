@@ -6,7 +6,7 @@ import Apps from './screens/apps';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Apps />
+    <Apps/>
   </React.StrictMode>,
   document.getElementById('root')
 );
