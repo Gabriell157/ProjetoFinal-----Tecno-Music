@@ -29,7 +29,7 @@ function TelaCadastro() {
         <p>Seu E-mail : {pessoa.email}</p>
         <p>Sua Senha : {pessoa.senha}</p>
         <p>Sua Biografia : {pessoa.bio}</p>
-        <p>Sua Foto : {pessoa.foto}</p>
+        <img src={pessoa.foto} alt="foto"/>
 
         <button type="button" onClick={salvarCadastro}>Cadastrar</button>
 

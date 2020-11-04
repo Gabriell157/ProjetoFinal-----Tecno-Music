@@ -17,11 +17,15 @@ function TelaLogin() {
     }
 
     return <form>
-
+        <div>
         <input onChange={handleChange} type="email" name="email" id="01" />
-        <input onChange={handleChange} type="senha" name="senha" id="02" />
-
+        </div>
+        <div>
+        <input onChange={handleChange} type="password" name="senha" id="02" />
+        </div>
+        <div>
         <button type="button" onClick={fazerLogin}>Entrar</button>
+        </div>
 
     </form>
 
